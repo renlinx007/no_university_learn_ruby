@@ -19,8 +19,12 @@ class SelectionSort
  end
 
  def print_a()
-  a.each do |a_element|
+  @@a.each do |a_element|
    puts a_element
   end
  end 
 end
+
+selection_sort_object = SelectionSort.new
+
+selection_sort_object.print_a
