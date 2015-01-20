@@ -9,12 +9,18 @@
 #  Shell : Bash,buffered by tmux					     
 
 #  Editor : vim		     
-						     		
+		
+#  Class For SelectionSort :)				     		
+class SelectionSort
+ @@a = [3,4,2,10]
+ 
+ def initialize()
+  nil # nothing 
+ end
 
-a = [3,4,2,10]
-
-a.each do |a_element|
- puts a_element
-end 
-
-
+ def print_a()
+  a.each do |a_element|
+   puts a_element
+  end
+ end 
+end
